@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tarea Xacademy - Santex </h1>
+    <p><strong>Ejercicio Integrador de Js para ver resultados en consola</strong></p>
+    <p>En el archivo tarea2.js podemos encontrar un código de un supermercado que vende productos.
+        El código contiene 
+           <ul>
+            - una clase Producto que representa un producto que vende el super<br>
+            - una clase Carrito que representa el carrito de compras de un cliente<br>
+            - una clase ProductoEnCarrito que representa un producto que se agrego al carrito<br>
+            - una función findProductBySku que simula una base de datos y busca un producto por su sku
+           </ul>
+        El código tiene errores y varias cosas para mejorar / agregar
+        ​
+        Ejercicios
+           <ul>
+            1) Arreglar errores existentes en el código
+            <br>a) Al ejecutar agregarProducto 2 veces con los mismos valores debería agregar 1 solo producto con la suma de las cantidades.    
+            <br>b) Al ejecutar agregarProducto debería actualizar la lista de categorías solamente si la categoría no estaba en la lista.
+            <br>c) Si intento agregar un producto que no existe debería mostrar un mensaje de error.<br><br>
+        ​
+            2) Agregar la función eliminarProducto a la clase Carrito
+            <br>a) La función eliminarProducto recibe un sku y una cantidad (debe devolver una promesa)
+            <br>b) Si la cantidad es menor a la cantidad de ese producto en el carrito, se debe restar esa cantidad al producto
+            <br>c) Si la cantidad es mayor o igual a la cantidad de ese producto en el carrito, se debe eliminar el producto del carrito
+            <br>d) Si el producto no existe en el carrito, se debe mostrar un mensaje de error
+            <br>e) La función debe retornar una promesa<br><br>
+        ​
+            3) Utilizar la función eliminarProducto utilizando .then() y .catch()
+            
+           </ul>
+    </p>
+    <script src="./tarea2.js"></script>
+</body>
+ 
+</html>
